@@ -1,12 +1,12 @@
 import styles from './SobreMim.module.css'
 import PostModelo from "componentes/PostModelo";
-import fotoCapa from "assets/sobre_mim_capa.png"
-import fotoSobreMim from "assets/messi-592cut.png";
+import fotoCapa from "assets/pesoa-programando.png";
+import fotoSobreMim from "assets/eu-rosto.jpg";
 
 export default function SobreMim() {
     return (
       <PostModelo fotoCapa={fotoCapa} titulo="SobreMim">
-        <h3 className={styles.subtitulo}>Sou Lionel Messi</h3>
+        <h3 className={styles.subtitulo}>Olá, eu sou o Gildair!</h3>
         <img
           className={styles.fotoSobreMim}
           src={fotoSobreMim}
@@ -37,10 +37,9 @@ export default function SobreMim() {
         </p>
         <p className={styles.paragrafo}>
           Além disso, pretendo fazer faculdade de Ciências da Computação
-          futuramente. Também tenho conhecimentos
-          em marketing, como tráfego pago e SEO. E também Desde jovem, eu já dava
-          manutenção em computadores e, aos poucos, fui descobrindo meu
-          interesse pela área.
+          futuramente. Também tenho conhecimentos em marketing, como tráfego
+          pago e SEO. E também Desde jovem, eu já dava manutenção em
+          computadores e, aos poucos, fui descobrindo meu interesse pela área.
         </p>
         <p className={styles.paragrafo}>
           A programação se tornou minha paixão e estou animado(a) para
