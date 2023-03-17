@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import styles from "./Banner.module.css";
 import circuloColorido from "assets/circulo_colorido.png";
-import minhaFoto from "assets/messi-rosto1.png";
+import minhaFoto from "assets/eu-rosto.jpg";
 
 import React from "react";
 
